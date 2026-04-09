@@ -1,4 +1,4 @@
-** Projet de Loic MERLHE **
+Projet de Loic MERLHE 
 
 # Usage de l'IA
 
