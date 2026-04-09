@@ -32,6 +32,8 @@ export default class Bille {
             // MISE À JOUR : On écrit dans l'objet Config
             Config.user.selectedBille = this;
             Config.user.firstClickPos = createVector(mouseX, mouseY);
+            Config.message.explication = false;
+
             
             return true; // Utile pour savoir si on a touché quelque chose
         }

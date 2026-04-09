@@ -7,6 +7,8 @@ window.draw = draw;
 window.mousePressed = mousePressed;
 window.mouseReleased = mouseReleased;
 
+let explication;
+
 function setup() {
     createCanvas(windowWidth, windowHeight);
     background(240);
@@ -20,11 +22,28 @@ function setup() {
         
         // On stocke les billes directement dans le tableau du Config
         Config.billes.push(new Bille(pos, size));
+
     }
+    explication = createP('Cliquez sur une boule, maintenez le bouton enfoncé pour la déplacer, puis relâchez');
+    explication.position(windowWidth/2 - 400, windowHeight/2);
+    explication.style('font-family', 'sans-serif');
+    explication.style('font-size', "50px");
+    explication.style('font-weight', "bold");
+    explication.style('text-align', "center");
+    explication.style("color", "blue");
+    explication.size(800);
+    explication.show()
 }
 
 function draw() {
     background(240);
+
+    if (Config.message.explication) {
+        explication.show();
+    }
+    else {
+        explication.hide();
+    }
     
     // 1. Mise à jour et dessin
     Config.billes.forEach((bille) => {

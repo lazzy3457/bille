@@ -14,7 +14,10 @@ const Config = {
         nbBilleMin: 15,
         nbBilleMax: 30
     },
-    billes: []
+    billes: [],
+    message: {
+        explication : true
+    }
 };
 
 export default Config;
