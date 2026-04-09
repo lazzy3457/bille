@@ -1,3 +1,5 @@
+*** Projet de Loic MERLHE ***
+
 # Usage de l'IA
 
 ## Les parties pour lesquelles j'ai utiliser l'IA
