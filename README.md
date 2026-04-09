@@ -1,4 +1,4 @@
-*** Projet de Loic MERLHE ***
+** Projet de Loic MERLHE **
 
 # Usage de l'IA
 
@@ -15,7 +15,6 @@ mes prompts étaient :
 - question sur la gestions des collisions via les vecteurs afin de comprendre le fonctionnement
 - demande de generation du code pour la gesiton des collisions
 - demande de génération du code pour la création de la flèche
-- 
 
 
 ## les modifications apporté
