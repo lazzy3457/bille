@@ -47,7 +47,7 @@ export default class Bille {
         let vecteurResultat = p5.Vector.sub(end, start);
 
         this.vit = vecteurResultat;
-        this.vit.mult(-1 / 10); // Puissance du lancer
+        this.vit.mult(-1 * Config.physics.baseSpeed); // Puissance du lancer
     }
 
     update() {

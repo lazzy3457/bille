@@ -5,12 +5,12 @@ const Config = {
         firstClickPos: null
     },
     physics: {
-        baseSpeed: 0.1,
+        baseSpeed: 0.05,
         friction: 0.985
     },
     settings: {
-        sizeMin: 10,
-        sizeMax: 30,
+        sizeMin: 60,
+        sizeMax:  100,
         nbBilleMin: 15,
         nbBilleMax: 30
     },
